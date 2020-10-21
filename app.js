@@ -27,7 +27,7 @@ mongoose.connect(config.getDbConnectionString(),{
 
 //controllers folder, setupController.js file: run it
 setupControl(app)
-//corre a API
+//runs API
 apiController(app);
 app.listen(port);
 
